@@ -9,12 +9,17 @@ background-color: coral;
 
 
 header {
-background-color: coral;
+background-color: gray;
+padding: 10px;
 
 }
 
 header div.topbar {
     height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 80px;
     
 background-color: grey;
 }
@@ -25,29 +30,40 @@ background-color: grey;
 
 header nav {
     height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 80px;
 }
 
 header nav div.logo{
-    height: 40px;
-    width: 0;
-    display: flex;
+    height: 80px;
+    
     background-color: gray;
 }
 nav div img {
-    height: 80px;
+    height: 100%;
 }
 header nav div.navlinks {
     display: flex;
-    justify-content: space-between;     
+    gap: 20px;
+       
 }
 main{
     display: flex;
     justify-content: center;
 }
 
-main.section.hero{
-    min-height: calc( 100vh - 120px);
+main section.hero{
+    min-height: calc(100vh - 120px);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
 
+.hero_img img {
+    height: 400px;
+    gap: 100px;
 }
 
 footer {
