@@ -7,28 +7,39 @@ body{
 background-color: coral;
 }
 
+
 header {
 background-color: coral;
 
 }
 
-.topbar {
+header div.topbar {
     height: 40px;
     
 background-color: grey;
 }
+ 
+
+
+
 
 header nav {
     height: 80px;
 }
 
 header nav div.logo{
+    height: 40px;
+    width: 0;
+    display: flex;
     background-color: gray;
 }
 nav div img {
     height: 80px;
 }
-
+header nav div.navlinks {
+    display: flex;
+    justify-content: space-between;     
+}
 main{
     display: flex;
     justify-content: center;
@@ -40,5 +51,5 @@ main.section.hero{
 }
 
 footer {
-    height: 40px;
+    height: 60px;
 }
